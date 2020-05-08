@@ -4,9 +4,9 @@
 # The docs are available on https://docs.fastlane.tools/actions/match
 
 storage_mode('git')
-git_url('ENTER THE URL FOR AN EMPTY PRIVATE GIT REPOSITORY HERE')
+git_url('git@github.com:tucali/ios-signing.git')
 
-username('ENTER YOUR APP STORE EMAIL/USERNAME HERE')
+username('tai@tucali.ca')
 
 type('adhoc')
-app_identifier('com.semaphoreci.TallestTowers')
+app_identifier('ca.tucali.TallestTowers')
